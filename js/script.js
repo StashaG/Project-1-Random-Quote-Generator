@@ -15,6 +15,14 @@ project 1 - A Random Quote Generator
   Use console.log() to log your array of quotes to the console.
 ***/
 
+var quotes = [
+  "But success is not the absence of failure, it's the persistence through failure. ~ Mattie James, 2019",
+  "If you are persistent, you will get it. If you are consistent, you will keep it. ~ Mattie James, 2019",
+  "All businesses are about relationships and the tech industry is no different ~ Ruben Harris, 2019",
+  "Coding is easier when you do it with a community of people who are just as passionate about coding as you ~ Saron Yitbarek, Founder of CodeNewbie",
+  "The best jobs aren't publicly listed. You have to dig for them, invent them, or convince someone it's worth creating just for you."
+  ];
+
 
 
 
