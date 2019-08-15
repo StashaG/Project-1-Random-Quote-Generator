@@ -57,6 +57,7 @@ var quotes = [
   citation: "Twitter"
   year: "2019",
 },
+];
 
 
 /***
