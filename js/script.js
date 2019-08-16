@@ -21,43 +21,38 @@ var quotes = [
     source: "Mattie James",
     citation: "Mattie Minute Newsletter",
     year: "2019",  
-},
-{
+  },
+  {
     quote: "If you are persistent, you will get it. If you are consistent, you will keep it.",
     source: "Mattie James",
     citation: "Mattie Minute Newsletter",
     year: "2019",
-},
-{
-  quote: "All businesses are about relationships and the tech industry is no different ~ , 2019",
-  source: "Ruben Harris",
-  citation: "Medium",
-  year: "2016", 
-},
-{
-  quote: "I promise you somebody took that same situation you're in right now and bodied it. Find a solution.",
-  source: "Ruben Harris",
-  citation: "Twitter",
-  year: "2019", 
-},
-{
-  quote: "Coding is easier when you do it with a community of people who are just as passionate about coding as you",
-  source: "Saron Yitbarek",
-  citation: "Founder of CodeNewbie",
-},
-{
-  quote: "Coding is easier when you do it with a community of people who are just as passionate about coding as you",
-  source: "Saron Yitbarek",
-  citation: "Founder of CodeNewbie",
-},
-{
-  quote: "The best jobs aren't publicly listed. You have to dig for them, invent them, " 
-  + "or convince someone it's worth creating just for you.",
-  source: "Sahil Lavingia",
-  citation: "Twitter"
-  year: "2019",
-},
-];
+  },
+  {
+    quote: "All businesses are about relationships and the tech industry is no different",
+    source: "Ruben Harris",
+    citation: "Medium",
+    year: "2016", 
+  },
+  {
+    quote: "I promise you somebody took that same situation you're in right now and bodied it. Find a solution.",
+    source: "Ruben Harris",
+    citation: "Twitter",
+    year: "2019", 
+  },
+  {
+    quote: "Coding is easier when you do it with a community of people who are just as passionate about coding as you",
+    source: "Saron Yitbarek",
+    citation: "Founder of CodeNewbie",
+  },
+  {
+    quote: "The best jobs aren't publicly listed. You have to dig for them, invent them, " 
+    + "or convince someone it's worth creating just for you.",
+    source: "Sahil Lavingia",
+    citation: "Twitter"
+    year: "2019",
+  },
+  ];
 
 
 /***
