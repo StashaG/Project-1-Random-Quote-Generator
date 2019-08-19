@@ -51,8 +51,11 @@ var quotes = [
     source: "Sahil Lavingia",
     citation: "Twitter"
     year: "2019",
-  },
+  }
   ];
+
+  console.log(quotes);
+
 
 
 /***
