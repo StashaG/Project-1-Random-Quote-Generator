@@ -58,9 +58,14 @@ var quotes = [
 /***
   Create the `getRandomQuote` function to:
    - Create a variable to store a random number 
-   - Cse the random number to `return` a random quote object from the `quotes` array.
+   - Use the random number to `return` a random quote object from the `quotes` array.
 ***/
+function getRandomQuote() {
+  var randomNum = Math.floor( Math.random() * 6 ) + 1;
+  return randomNum.quotes['quote'];
+}
 
+console.log( getRandomQuote );
 
 
 
