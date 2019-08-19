@@ -49,7 +49,7 @@ var quotes = [
     quote: "The best jobs aren't publicly listed. You have to dig for them, invent them, " 
     + "or convince someone it's worth creating just for you.",
     source: "Sahil Lavingia",
-    citation: "Twitter"
+    citation: "Twitter",
     year: "2019",
   }
   ];
