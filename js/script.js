@@ -64,11 +64,11 @@ var quotes = [
    - Use the random number to `return` a random quote object from the `quotes` array.
 ***/
 function getRandomQuote() {
-  var randomNum = Math.floor( Math.random() * 6 ) + 1;
-  return randomNum.quotes['quote'];
+  var randomNum = Math.floor( Math.random() * quotes.length);
+  return quotes[randomNum];
 }
 
-console.log( getRandomQuote );
+console.log(getRandomQuote());
 
 
 
