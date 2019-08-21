@@ -85,6 +85,14 @@ console.log(getRandomQuote());
    - Set the `innerHTML` of the `quote-box` div to the HTML string. 
 ***/
 
+function printQuote(){
+  var quoteObject = getRandomQuote();
+  
+
+
+
+
+}
 
 
 
