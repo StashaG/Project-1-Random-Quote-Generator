@@ -89,12 +89,12 @@ function printQuote(){
   var message = '';
 
   message += '<p class="quote">' + random.quote + '</p>'
-  message += '<p class="source">' + source.quote
+  message += '<p class="source">' + random.source
   if (quotes.citation){
-    message += '<span class="citation">' + citation.quote + '</span>';
+    message += '<span class="citation">' + random.citation + '</span>';
   }
   if (quotes.year){
-    message += '<span class="year">' + year.quote + '</span>';
+    message += '<span class="year">' + random.year + '</span>';
   }
     
     message += '</p>';
