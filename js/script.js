@@ -97,7 +97,7 @@ function printQuote(){
     message += '<span class="year">' + year.quote + '</span>';
   }
     
-    message += '</p>'
+    message += '</p>';
 
     console.log(message);
 
