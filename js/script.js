@@ -57,7 +57,6 @@ var quotes = [
   console.log(quotes);
 
 
-
 /***
   Create the `getRandomQuote` function to:
    - Create a variable to store a random number 
@@ -86,14 +85,24 @@ console.log(getRandomQuote());
 ***/
 
 function printQuote(){
-  var quoteObject = getRandomQuote();
-  
+  var random = getRandomQuote();
+  var message = '';
 
+  message += '<p class="quote">' + random.quote + '</p>'
+  message += '<p class="source">' + source.quote
+  if (quotes.citation){
+    message += '<span class="citation">' + citation.quote + '</span>';
+  }
+  if (quotes.year){
+    message += '<span class="year">' + year.quote + '</span>';
+  }
+    
+    message += '</p>'
 
+    console.log(message);
 
-
-}
-
+    document.getElementById('quote-box').innerHTML = message;
+} 
 
 
 /***
