@@ -90,10 +90,10 @@ function printQuote(){
 
   message += '<p class="quote">' + random.quote + '</p>'
   message += '<p class="source">' + random.source
-  if (quotes.citation){
+  if (random.citation){
     message += '<span class="citation">' + random.citation + '</span>';
   }
-  if (quotes.year){
+  if (random.year){
     message += '<span class="year">' + random.year + '</span>';
   }
     
