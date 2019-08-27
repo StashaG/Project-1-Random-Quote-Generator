@@ -17,7 +17,7 @@ project 1 - A Random Quote Generator
 
 var quotes = [
   { 
-    qoute: "But success is not the absence of failure, it's the persistence through failure.",
+    quote: "But success is not the absence of failure, it's the persistence through failure.",
     source: "Mattie James",
     citation: "Mattie Minute Newsletter",
     year: "2019",  
@@ -58,10 +58,7 @@ var quotes = [
 ***/
 function getRandomQuote() {
   var randomNum = Math.floor( Math.random() * quotes.length);
-   
-  /*for (var i = 0; i < quotes.length; i += 1) {
-    var randomQuote = quotes[i];
-  }*/
+  
   return quotes[randomNum];
 }
 
