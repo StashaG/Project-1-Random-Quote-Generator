@@ -23,12 +23,6 @@ var quotes = [
     year: "2019",  
   },
   {
-    quote: "If you are persistent, you will get it. If you are consistent, you will keep it.",
-    source: "Mattie James",
-    citation: "Mattie Minute Newsletter",
-    year: "2019",
-  },
-  {
     quote: "All businesses are about relationships and the tech industry is no different",
     source: "Ruben Harris",
     citation: "Medium",
@@ -64,6 +58,10 @@ var quotes = [
 ***/
 function getRandomQuote() {
   var randomNum = Math.floor( Math.random() * quotes.length);
+   
+  /*for (var i = 0; i < quotes.length; i += 1) {
+    var randomQuote = quotes[i];
+  }*/
   return quotes[randomNum];
 }
 
