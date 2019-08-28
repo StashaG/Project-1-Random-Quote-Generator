@@ -23,7 +23,7 @@ var quotes = [
     year: "2019",  
   },
   {
-    quote: "All businesses are about relationships and the tech industry is no different",
+    quote: "All businesses are about relationships and the tech industry is no different.",
     source: "Ruben Harris",
     citation: "Medium",
     year: "2016", 
@@ -35,7 +35,7 @@ var quotes = [
     year: "2019", 
   },
   {
-    quote: "Coding is easier when you do it with a community of people who are just as passionate about coding as you",
+    quote: "Coding is easier when you do it with a community of people who are just as passionate about coding as you.",
     source: "Saron Yitbarek",
     citation: "Founder of CodeNewbie",
   },
