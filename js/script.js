@@ -6,14 +6,7 @@ project 1 - A Random Quote Generator
 // Study guide for this project - https://drive.google.com/file/d/1s5grutGuQFwJcQP8bFwEI69Q8FCkGdDk/view?usp=sharing
 
 
-/*** 
-  Create the array of quote objects and name it `quotes`.
-  Add at least five quote objects to the `quotes` array.
-  Give each quote object a `quote` and `source` property.
-  Add the `citation` property to at least one object in the array.
-  Add the `year` property to at least one object in the array.
-  Use console.log() to log your array of quotes to the console.
-***/
+//Array of quote objects to hold quotes, sources, citations, years, and tags
 
 var quotes = [
   { 
@@ -21,23 +14,27 @@ var quotes = [
     source: "Mattie James",
     citation: "Mattie Minute Newsletter",
     year: "2019",  
+    tag: "business",
   },
   {
     quote: "All businesses are about relationships and the tech industry is no different.",
     source: "Ruben Harris",
     citation: "Medium",
-    year: "2016", 
+    year: "2016",
+    tag: "business", 
   },
   {
     quote: "I promise you somebody took that same situation you're in right now and bodied it. Find a solution.",
     source: "Ruben Harris",
     citation: "Twitter",
     year: "2019", 
+    tag: "self-improvement",
   },
   {
     quote: "Coding is easier when you do it with a community of people who are just as passionate about coding as you.",
     source: "Saron Yitbarek",
     citation: "Founder of CodeNewbie",
+    tag: "tech",
   },
   {
     quote: "The best jobs aren't publicly listed. You have to dig for them, invent them, " 
@@ -45,17 +42,15 @@ var quotes = [
     source: "Sahil Lavingia",
     citation: "Twitter",
     year: "2019",
+    tag: "job search advice",
   }
   ];
 
   console.log(quotes);
 
 
-/***
-  Create the `getRandomQuote` function to:
-   - Create a variable to store a random number 
-   - Use the random number to `return` a random quote object from the `quotes` array.
-***/
+/*Function to generate a random number, use it to get a random quote object and return a random quote*/
+
 function getRandomQuote() {
   var randomNum = Math.floor( Math.random() * quotes.length);
   
@@ -71,7 +66,7 @@ console.log(getRandomQuote());
    - Call the `getRandomQuote` function and assign it to a variable.
    - Create a variable for the HTML string and set it equal to an empty string.
    - Use the HTML template in the instructions or the markup in the index.html file, AND 
-     the random quote vairable to build your HTML string.
+     the random quote variable to build your HTML string.
    - Add the quote and source section to the HTML string.
    - Use an if statement to check for the citation property before adding it to the HTML string.
    - Use an if statement to check for the year property before adding it to the HTML string.
@@ -91,6 +86,9 @@ function printQuote(){
   if (random.year){
     message += '<span class="year">' + random.year + '</span>';
   }
+  if (random.tag){
+    message += '<span class="tag">' + "<br>" + '~' + random.tag + '</span>';
+  }
     
     message += '</p>';
 
@@ -107,7 +105,7 @@ function printQuote(){
   comment.
 ***/
 
-document.getElementById('loadQuote').addEventListener("click", printQuote, false);
+document.getElementById('loadQuote').addEventListener("click", printQuote, false); /*Invokes the 'printQuote' function*/
 
 
 // Remember to delete the comments that came with this file, and replace them with your own code comments.
