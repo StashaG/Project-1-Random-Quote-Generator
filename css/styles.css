@@ -71,6 +71,11 @@ body {
   font-style: normal;
 }
 
+.tag {
+  font-size: 1rem;
+  font-style: normal;
+}
+
 #loadQuote {
   position: fixed;
   width: 12em;
