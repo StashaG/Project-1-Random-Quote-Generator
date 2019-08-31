@@ -73,10 +73,9 @@ function printQuote(){ //print function calls the `getRandomQuote` function and 
     message += '</p>';
 
     console.log(message);
-
+    
     document.getElementById('quote-box').innerHTML = message;//changes the HTML applied to the quote-box id in the HTML element
 } 
-
 
 /*When you click the "Show another quote" button, the event listener 
   below is triggered, and it calls the `printQuote` function.*/
