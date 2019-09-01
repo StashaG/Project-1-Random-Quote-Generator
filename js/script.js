@@ -53,10 +53,13 @@ function getRandomQuote() {
 
 console.log(getRandomQuote());
 
+var myTimer = setInterval(printQuote, 20000);
 
 function printQuote(){ //print function calls the `getRandomQuote` function and assigns it to a variable.
+  
   var random = getRandomQuote();
   var message = ''; //message variable set to an empty string
+  
 
   message += '<p class="quote">' + random.quote + '</p>'//adds the quote from the array to the HTML string
   message += '<p class="source">' + random.source //adds the source from the array to the HTML string
@@ -73,7 +76,8 @@ function printQuote(){ //print function calls the `getRandomQuote` function and 
     message += '</p>';
 
     console.log(message);
-    
+    clearInterval(myTimer);
+  
     document.getElementById('quote-box').innerHTML = message;//changes the HTML applied to the quote-box id in the HTML element
 } 
 
