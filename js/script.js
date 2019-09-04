@@ -53,7 +53,10 @@ function getRandomQuote() {
 
 console.log(getRandomQuote());
 
-var myTimer = setInterval(printQuote, 20000);
+var myTimer = setInterval(printQuote, 5000);
+
+var colors = ['red', 'blue', 'yellow', 'green', 'black', 'purple',];
+myDiv.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
 
 function printQuote(){ //print function calls the `getRandomQuote` function and assigns it to a variable.
   
@@ -77,7 +80,8 @@ function printQuote(){ //print function calls the `getRandomQuote` function and 
 
     console.log(message);
     clearInterval(myTimer);
-  
+    myTimer = setInterval(printQuote, 5000);
+    
     document.getElementById('quote-box').innerHTML = message;//changes the HTML applied to the quote-box id in the HTML element
 } 
 
