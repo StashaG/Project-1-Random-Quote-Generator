@@ -10,7 +10,7 @@
  - object literals
  
  ## 🖥 Screenshots:
-#### :point_down: Home Page
+#### :point_down_tone4: Home Page
 
 
 ![image](https://user-images.githubusercontent.com/35972972/97759012-7e58bb80-1ad6-11eb-86b6-0ff92aa544cf.png)
