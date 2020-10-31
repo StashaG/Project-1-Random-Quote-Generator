@@ -3,7 +3,7 @@
 
 ## Live Website: 
 
-- *Application* [https://stashag.github.io/Random-Quote-Generator/] (https://stashag.github.io/Random-Quote-Generator/)
+- *Application* [Random Quote Generator] (https://stashag.github.io/Random-Quote-Generator/)
 
  ## Goal:
  Build an app using your knowledge of basic JavaScript syntax:
